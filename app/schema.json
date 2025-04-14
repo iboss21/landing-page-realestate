@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "SellYourHouse Luxury Real Estate",
+  "image": "https://sellyourhouse.com/images/logo.png",
+  "url": "https://sellyourhouse.com",
+  "telephone": "(916) 555-1234",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1234 Capitol Avenue",
+    "addressLocality": "Sacramento",
+    "addressRegion": "CA",
+    "postalCode": "95814",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "38.5816",
+    "longitude": "-121.4944"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/sellyourhouserealestate",
+    "https://www.instagram.com/sellyourhouserealestate",
+    "https://www.linkedin.com/company/sellyourhouserealestate"
+  ],
+  "priceRange": "$$$",
+  "areaServed": ["Sacramento", "East Sacramento", "Land Park", "Sierra Oaks Vista", "Arden Oaks", "Granite Bay"],
+  "description": "Sacramento's premier luxury real estate agency specializing in high-end homes, estates, and investment properties in the most prestigious neighborhoods."
+}
